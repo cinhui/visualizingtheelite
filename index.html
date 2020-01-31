@@ -3,32 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <title>Visualizing the Elite</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
-<body>
-    <div class="container margin-top-2rem" >
-      <section class="row">
-        <div class="col-sm-12 jumbotron">
-          <h1 class="display-3">Visualizing the Elite</h1>
-          <p class="lead">[Under development]</p>
-        </div>
-      </section>
-    </div>
+<body data-spy="scroll" data-offset="0" data-target="#navigation">
+
+  <!-- Fixed navbar -->
+  <div id="navigation" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <section class="row">
-        <div class="col-lg-9 col-md-9 col-sm-12">
-          <h1>Places where AEW events have been held</h1>
-           <p>
-          </p>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand smothscroll" href="#home"><b></b></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#home" class="smothscroll">Home</a></li>
+          <li><a href="#section1" class="smothscroll"></a></li>
+          <li><a href="#section2" class="smothscroll"></a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <section id="home" name="home">
+    <div id="headerwrap">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-lg-12">
+            <h1>Visualizing the Elite</b></h1>
+            <h3>A little project about All Elite Wrestling</h3>
+            <br>
+          </div>
         </div>
-        </section>
-      <section class="row">
-        <div class="col-lg-9 col-md-9 col-sm-12">
+      </div>
+      <!--/ .container -->
+    </div>
+    <!--/ #headerwrap -->
+  </section>
+
+
+  <section id="desc" name="desc">
+    <!-- INTRO WRAP -->
+    <div id="intro">
+      <div class="container">
+        <div class="row centered">
+          <h1>Places where AEW has been</h1>
+          <br>
+          <br>
+          <div class="col-lg-8">
             <p>
               <div class='tableauPlaceholder' id='viz1580416048584' style='position: relative'>
                 <noscript>
@@ -57,9 +95,52 @@
                   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
               </script>
             </p>  
+          </div>
+          <div class="col-lg-4">
+            <h3></h3>
+            <p></p>
+          </div>
         </div>
-      </section>
+        <br>
+        <hr>
+      </div>
+      <!--/ .container -->
     </div>
-</body>
+    <!--/ #introwrap -->
 
+    <!-- FEATURES WRAP -->
+    <div id="features">
+      <div class="container">
+        <div class="row">
+          <h1 class="centered">More graphs</h1>
+          <br>
+          <br>
+          <div class="col-lg-6 centered">
+          </div>
+          <div class="col-lg-6 centered">
+          </div>
+        </div>
+      </div>
+      <!--/ .container -->
+    </div>
+    <!--/ #features -->
+  </section>
+
+  <div id="copyrights">
+    <div class="container">
+      <p>
+      </p>
+    </div>
+  </div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 </html>
