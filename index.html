@@ -49,7 +49,8 @@
           <li><a href="#section_times" class="smothscroll">Times</a></li>
           <li><a href="#section_wednesday" class="smothscroll">Wednesday Night Wars</a></li>
           <li><a href="#section_activity" class="smothscroll">Activity</a></li>
-          <li><a href="#section_details" class="smothscroll">About</a></li>
+          <li><a href="#section_details" class="smothscroll">Data</a></li>
+          <!-- <li><a href="#section_aboutme" class="smothscroll">About</a></li> -->
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -82,19 +83,31 @@
           <br>
           <div class="col-lg-12">
             <p>
-              With this Saturday, Feb 29th being AEW Revolution, the first AEW Pay Per View event of the year (and decade),
-              I thought it would be appropriate to put together a data-centric analysis of AEW matches
-              leading up to the event along with some interesting statistics and findings from AEW history.
-              This project enables me to combine two things I really enjoy: 
-              professional wrestling and data analysis and visualization.
+              Visualizing the Elite combines two things I really enjoy: 
+              professional wrestling and data analytics.
               The motivation behind this project is to utilize match data to provide an overview of things like 
               how your favorite wrestlers are performing in terms of wins and losses,
               how often wrestlers are used on specific programs, and
-              how wrestlers are being featured in in-ring competitions.
-              The analyses and visualizations can also be used to assist in developing storylines among wrestlers.
+              how wrestlers are being featured in in-ring competitions. 
+              The interactive dashboards can be used to enable users to explore the rankings and statistics among wrestlers.
+              The analytical platform can be used to assist in developing storylines among wrestlers.
             </p>
             <p>
+              Version 1.0 was released on Friday, Feb 28th, in preparation for the AEW Revolution Pay Per View event,
+              which was held on Saturday, Feb 29th in Chicago, Illinois. 
+              It provided a data-centric analysis of AEW matches leading up to the event 
+              along with some interesting statistics and findings from AEW history.
+              The archived page can be found <a href="/">here</a>.
+            </p>
+            <p>
+              This is an on-going effort and the page will be updated weekly as more AEW events occur 
+              and data becomes available.
+              <br>The current database includes matches from May 25th, 2019 through Feb 29th, 2020.
+            </p>
+            <p>  
               Feedback and comments are always welcomed. 
+              Please each out if there are any particular questions you would like the data to answer, 
+              or if there is anything you feel needs further exploration.
               Find me on Twitter <a href="https://twitter.com/vizelitedotcom">@vizelitedotcom</a>
               or send me an email at visualizingtheelite at gmail dot com.
             </p>
@@ -112,6 +125,7 @@
       <div class="container">
         <div class="row">
           <h1 class="centered">Live Events Map</h1>
+          <p class="centered">(as of Feb. 29th, 2020)</p>
           <br>
           <br>
           <div class="col-lg-4">
@@ -123,8 +137,8 @@
               in the Eastern half of the U.S.
             </p>
             <p> 
-              AEW has held 26 live events so far, 
-              with the most visited states being Florida (4), Illinois (3), and Texas (3).
+              AEW has held 27 live events so far, 
+              with the most visited states being Florida (4), Illinois (4), and Texas (3).
             </p>
             <p><b>How to use the map:</b>
               <br>Hover over the markers to view event details for each location.</p>
@@ -149,26 +163,17 @@
           <p class="centered">Do Wins and Losses Matter?</p>
           <div class="col-lg-12">
           <p>
-            AEW claims that wins and losses will matter. How did they fare leading 
-            up to AEW Revolution? Let’s take a look at the win/loss singles records 
-            from all AEW events leading up to Revolution.
-            Based on the chart below, Jon Moxley is the clear number one singles 
-            contender for the Men's World Champion Title. 
-            In the women's division -- excluding Riho, who lost the title to Nyla Rose -- 
-            Kris Statlander and Hikaru Shida are tied as number one contenders (2-1) 
-            in singles competition. This satisfies the claim that wins and losses matter 
-            in AEW as Moxley and Statlander will be challenging for titles at AEW Revolution.
+            The following interactive chart shows the win/loss records for all the wrestlers 
+            from all AEW events within the selected timeframe.
+            Note that all matches aired on Pay Per View events, Dynamite, and Dark are 
+            counted in the data. 
+            This includes unsanctioned matches, battles royal, and unofficial matches.
+            Singles matches are classified as one-on-one matches involving at most two wrestlers.
+            Non-singles matches include all other matches involving more than two wrestlers, 
+            such as tag team matches, battles royal, and three-way and four way matches. 
+            Future work would involve classifying the matches in greater detail.
          </p>
-         <p>
-          * Note: All matches aired on Pay Per View events, Dynamite, and Dark are 
-          counted in the data. 
-          This includes unsanctioned matches, battles royal, and unofficial matches.
-          Singles matches are classified as one-on-one matches involving at most two wrestlers.
-          Non-singles matches include all other matches involving more than two wrestlers, 
-          such as tag team matches, battles royal, and three-way and four way matches. 
-          Future work would involve classifying the matches in greater detail.
-         </p>
-         <b>Other Findings (based on AEW History):</b>
+         <b>Findings (based on AEW History):</b>
           </div>
           <div class="col-lg-6">
             <p>
@@ -235,7 +240,7 @@
       <div class="container">
         <div class="row">
           <h1 class="centered">Most Utilized Wrestlers in 2020</h1>
-          <p class="centered">(Jan. 1st through Feb. 26th, 2020)</p>
+          <p class="centered">(Jan. 1st through Feb. 29th, 2020)</p>
           <div class="col-lg-12">
           <p>
             This chart identifies key players in AEW, along with up-and-coming wrestlers, 
@@ -244,7 +249,7 @@
             Which wrestlers with similar win/loss stats would be interesting to go 
             head to head with?
           </p>
-        <b>Some Findings (based on 2020):</b>
+        <b>Findings (based on 2020):</b>
          </div>
           <div class="col-lg-6">
             <p>
@@ -311,7 +316,9 @@
           <p>
             This chart displays all AEW matches sorted by the length of the match. 
             Matches with missing match times were excluded from the analysis.
-            The longest matches tend to be pay-per-view headlining matches. Two exceptions were special attraction matches: Kenny Omega vs PAC Iron Man match on Dynamite on Feb. 26, 2020 and the Kenny Omega vs Joey Janela match on Dark on Oct 9, 2020. 
+            The longest matches tend to be pay-per-view headlining matches. 
+            Two exceptions were special attraction matches: Kenny Omega vs PAC Iron Man match on Dynamite on Feb. 26, 2020 
+            and the Kenny Omega vs Joey Janela match on Dark on Oct 9, 2020. 
             The average match lasts about 11 minutes and 37 seconds. 
             The average singles match lasts about 10 minutes and 50 seconds.            
           </p>
@@ -487,7 +494,7 @@
       <div id="section_details">
         <div class="container">
           <div class="row">
-            <h1 class="centered">About</h1>
+            <h1 class="centered">Data</h1>
             <br>
             <br>
             <div class="col-lg-12">
@@ -512,9 +519,30 @@
       </div>
     </section>
 
+    <!-- <section id="section_aboutme" name="section_aboutme">
+      <br><br><br>
+      <div id="section_aboutme">
+        <div class="container">
+          <div class="row">
+            <h1 class="centered">About Me</h1>
+            <br>
+            <br>
+            <div class="col-lg-12">
+              <p>
+              </p>
+            </div>
+          </div>
+          <br>
+          <hr>
+        </div>
+        <!--/ .container -->
+      </div>
+    </section> -->
+
   <div id="copyrights">
     <div class="container">
       <p>
+        &copy; 2020 <strong>Visualizing the Elite</strong>
       </p>
     </div>
   </div>
